@@ -18,7 +18,7 @@ The project includes Arduino firmware, PCB design files, the switch datasheet, a
 /Python → Python control scripts <br>
 /MATLAB → MATLAB control functions <br>
 /PCB → Interface PCB design (schematics, layout, BOM, Gerbers) <br>
-/Docs → Switch datasheet, timing specs, hardware documentation <br>
+/Docs → Switch datasheet <br>
 
 
 ## Hardware Requirements
