@@ -55,8 +55,6 @@ The Arduino listens for simple ASCII commands:
 * B → Set switch to Position B
 * S → Query current state
 
-*(Adjust according to your final firmware implementation.)*
-
 ### ✅ Example (Python)
 ```
 from switch87222C import Switch87222C
