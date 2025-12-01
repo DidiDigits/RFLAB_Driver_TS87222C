@@ -3,7 +3,7 @@
 
 ## 🎯 Overview
 This repository provides an Arduino UNO–based controller for the **Keysight 87222C Transfer Switch**, along with a custom PCB interface designed to safely and reliably connect the Arduino to the RF switch.  
-The project includes Arduino firmware, PCB design files, the switch datasheet, and MATLAB/Python scripts for automated control.
+The project includes Arduino firmware, PCB design files, the switch datasheet, and MATLAB scripts for automated control.
 
 ## 📌 Features
 - Full control of the Keysight 87222C transfer switch  
@@ -15,7 +15,6 @@ The project includes Arduino firmware, PCB design files, the switch datasheet, a
 
 ## 📁 Repository Structure
 /Arduino → Arduino UNO firmware <br>
-/Python → Python control scripts <br>
 /MATLAB → MATLAB control functions <br>
 /PCB → Interface PCB design (schematics, layout, BOM, Gerbers) <br>
 /Docs → Switch datasheet <br>
@@ -39,12 +38,6 @@ The project includes Arduino firmware, PCB design files, the switch datasheet, a
 1. Open the `MATLAB/` folder.  
 2. Add the folder to the MATLAB path.  
 3. Use the provided functions to send commands to the Arduino.
-
-### Python Interface
-1. Install dependencies:
-   ```bash
-   pip install pyserial
-2. Use the scripts in the Python/ folder to control the switch.
 
 ### Usage
 #### Serial Commands
